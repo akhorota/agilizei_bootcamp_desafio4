@@ -1,0 +1,19 @@
+{
+  "name": "aglz_bc_d4",
+  "version": "1.0.0",
+  "description": "Agilizei Bootcamp Desafio 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:healthcheck": "npx cypress run --env grep=@healthcheck",
+    "test:schema": "npx cypress run --env grep=@schema",
+    "test:functional": "npx cypress run --env grep=@functional"
+  },
+  "author": "Andre Horota",
+  "license": "ISC",
+  "devDependencies": {
+    "cy-spok": "github:bahmutov/cy-spok",
+    "cypress": "^5.3.0",
+    "cypress-select-tests": "^1.5.9"
+  }
+}

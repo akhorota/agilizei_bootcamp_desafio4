@@ -1,0 +1,9 @@
+# dependencies
+node_modules/
+
+# videos
+cypress/videos
+
+# outros
+.DS_Store
+.vscode
